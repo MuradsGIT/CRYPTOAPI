@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar spam{
+    color: rgb(83, 10, 201);
+}
+.icon{
+color: rgb(83, 10, 201);
+font-size: 30px;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(83, 10, 201);
+    background-color: #333;
+    color: white;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  input:hover {
+    border-color: rgb(31, 4, 75);
+  }
+  
+  input:focus {
+    border-color: rgb(34, 4, 82);
+    box-shadow: 0 0 10px rgba(24, 3, 57, 0.5);
+    color: rgb(165, 165, 165);
+  }
+  
+  input[type="text"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  input::placeholder {
+    color: rgb(136, 136, 136);
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: #333;
+    color: rgb(83, 10, 201);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(83, 10, 201);
+  }
+  
